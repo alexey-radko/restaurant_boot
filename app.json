@@ -1,0 +1,6 @@
+{
+  "name": "Webhook-echo-sample",
+  "description": "Webhook echo sample",
+  "repository": "https://github.com/alexey-radko/restaurant_boot.git",
+  "keywords": ["api.ai", "dialogflow", "natural language"]
+}
