@@ -17,7 +17,7 @@ restService.use(bodyParser.json());
 
 // process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
 
-restService.post("/", function(req, res) {
+restService.post("/boot", function(req, res) {
   const agent = new WebhookClient({ req, res });
   console.log('Dialogflow Request headers: ' + JSON.stringify(requesreq.headers));
   console.log('Dialogflow Request body: ' + JSON.stringify(requesreq.body));
